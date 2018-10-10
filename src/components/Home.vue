@@ -1,17 +1,19 @@
 <template>
   <div>
-    <diamond top="70%" left="-10%" scale="600px"
-             color="rgba(210,220,255,1)" z="0"></diamond>
-    <diamond top="50%" left="80%" scale="200px"
-             color="rgba(200,50,200,1)" z="0"></diamond>
-    <diamond top="20%" left="20%" scale="60px"
-             color="rgba(100,200,200,1)" z="0"></diamond>
+    <div class="w100v">
+      <diamond top="70%" left="-10%" scale="600px"
+                  color="rgba(210,220,255,1)" z="0"></diamond>
+      <diamond top="50%" left="80%" scale="200px"
+               color="rgba(200,50,200,1)" z="0"></diamond>
+      <diamond top="20%" left="20%" scale="60px"
+               color="rgba(100,200,200,1)" z="0"></diamond>
+    </div>
     <section id="Home" class="hero is-fullheight">
       <div class="hero-body">
         <div class="container center">
           <h1 class="title">Jack Bonaguro</h1>
           <p class="subtitle">Computer Science Student at Georgia Tech</p>
-          <ul>
+          <!--ul>
             <li class="icon px4">
               <a href="https://github.com/jackbonaguro">
                 <i class="fab fa-github"></i>
@@ -27,18 +29,57 @@
                 <i class="fab fa-medium"></i>
               </a>
             </li>
-          </ul>
+          </ul-->
+          <nav class="level my0 py0">
+            <div class="level-item"></div>
+            <div class="level-item"></div>
+            <div class="level-item"></div>
+            <div class="level-item"></div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="icon px4">
+                  <a href="https://github.com/jackbonaguro">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="icon px4">
+                  <a href="https://twitter.com/jackbonaguro">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="icon px4">
+                  <a href="https://medium.com/@jbonaguro2">
+                    <i class="fab fa-medium"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="level-item"></div>
+            <div class="level-item"></div>
+            <div class="level-item"></div>
+            <div class="level-item"></div>
+          </nav>
         </div>
       </div>
     </section>
-    <diamond top="140%" left="80%" scale="700px"
-             color="rgba(210,255,255,1)" z="0"></diamond>
-    <diamond top="225%" left="10%" scale="80px"
-             color="rgba(200,50,200,1)" z="0"></diamond>
-    <diamond top="115%" left="95%" scale="150px"
-             color="rgba(150,180,255,1)" z="0"></diamond>
+    <div class="w100v">
+      <diamond top="140%" left="80%" scale="700px"
+               color="rgba(220,250,250,1)" z="0"></diamond>
+      <diamond top="225%" left="10%" scale="80px"
+               color="rgba(200,50,200,1)" z="0"></diamond>
+      <diamond top="115%" left="95%" scale="150px"
+               color="rgba(150,180,255,1)" z="0"></diamond>
+    </div>
     <section id="About" class="section h100v">
-      <div class="container p4">
+      <div class="container px4">
         <h2 class="has-text-dark">About</h2>
         <nav class="level">
           <div class="level-item has-text-centered">

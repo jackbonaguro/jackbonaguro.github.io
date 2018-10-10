@@ -2,14 +2,29 @@
 @import '~ace-css/css/ace.min';
 
 $primary: rgb(100,200,200);
+$info: rgb(200,50,200);
 
-/* a {
+a {
   text-decoration: none;
-  color: $black;
-  &hover {
-    color: blue;
-  }
-  &visited {
+  color: $info  ;
+}
 
-  }
-} */
+.tabs li.is-active a {
+  color: $primary;
+  border-bottom-color: $primary;
+}
+
+.heading {
+  color: $primary;
+}
+
+body{
+  max-width:100%;
+}
+.navbar.is-fixed-top{
+  max-width:100% !important;
+}
+
+.w100v {
+  width: 100vw;
+}

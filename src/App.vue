@@ -84,5 +84,6 @@ export default {
 
   #app {
     font-family: 'BrandonText', sans-serif;
+    overflow-x: hidden;
   }
 </style>

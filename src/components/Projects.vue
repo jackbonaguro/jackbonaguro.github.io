@@ -1,9 +1,9 @@
 <template>
-  <div class="container p4">
+  <div class="container px4">
     <h2 class="is-primary has-text-right">Projects</h2>
     <div class="tabs is-fullwidth">
       <ul>
-        <li v-for="tab in tabs" :key="tab"
+        <li v-for="tab in tabs" :key="tab" class="tab"
             v-bind:class="{'is-active': (tab === activeTab)}">
           <a v-on:click="setActiveTab(tab)">{{tab}}</a>
         </li>
@@ -50,15 +50,13 @@
               Node
             </a> // <a href="https://expressjs.com">
               Express
-            </a> // <a href="https://webpack.js.org">
-              Webpack
+            </a> // <a href="https://mongodb.com">
+              MongoDB
             </a></li>
             <li><a href="https://vuejs.org">
               Vue.js
-            </a> // <a href="https://aws.amazon.com/ec2/">
-              AWS EC2
-            </a> // <a href="https://remix.ethereum.org">
-              Remix
+            </a> // <a href="https://webpack.js.org">
+              Webpack
             </a></li>
           </ul>
         </div>

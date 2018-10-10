@@ -1,5 +1,6 @@
 <template>
-  <div id="diamond" :style="style">
+  <div class="outer">
+    <div id="diamond" :style="style"></div>
   </div>
 </template>
 
@@ -23,5 +24,15 @@ export default {
   #diamond {
     position: absolute;
     transform: rotate(45deg);
+    overflow: hidden;
+    white-space:nowrap;
+  }
+
+  .outer {
+    width: 100vw;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    // position: relative;
+    white-space:nowrap;
   }
 </style>
