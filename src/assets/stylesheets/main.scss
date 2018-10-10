@@ -1,0 +1,15 @@
+@import '~bulma/bulma';
+@import '~ace-css/css/ace.min';
+
+$primary2: rgb(100,200,200);
+
+a {
+  text-decoration: none;
+  color: $black;
+  &hover {
+    color: blue;
+  }
+  &visited {
+
+  }
+}
