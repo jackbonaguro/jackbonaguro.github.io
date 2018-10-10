@@ -1,19 +1,42 @@
 <template>
   <div>
     <diamond top="70%" left="-10%" scale="600px"
-             color="rgba(200,210,255,1)" z="0"></diamond>
+             color="rgba(210,220,255,1)" z="0"></diamond>
     <diamond top="50%" left="80%" scale="200px"
-             color="rgba(200,50,200,1)" z="1"></diamond>
+             color="rgba(200,50,200,1)" z="0"></diamond>
     <diamond top="20%" left="20%" scale="60px"
-             color="rgba(100,200,200,1)" z="2"></diamond>
-    <section class="hero is-fullheight">
+             color="rgba(100,200,200,1)" z="0"></diamond>
+    <section id="Home" class="hero is-fullheight">
       <div class="hero-body">
         <div class="container center">
           <h1 class="title">Jack Bonaguro</h1>
           <p class="subtitle">Computer Science Student at Georgia Tech</p>
+          <ul>
+            <li class="icon px4">
+              <a href="https://github.com/jackbonaguro">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li class="icon px4">
+              <a href="https://twitter.com/jackbonaguro">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="icon px4">
+              <a href="https://medium.com/@jbonaguro2">
+                <i class="fab fa-medium"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
+    <diamond top="140%" left="80%" scale="700px"
+             color="rgba(210,255,255,1)" z="0"></diamond>
+    <diamond top="225%" left="10%" scale="80px"
+             color="rgba(200,50,200,1)" z="0"></diamond>
+    <diamond top="115%" left="95%" scale="150px"
+             color="rgba(150,180,255,1)" z="0"></diamond>
     <section id="About" class="section h100v">
       <div class="container p4">
         <h2 class="has-text-dark">About</h2>
@@ -49,6 +72,26 @@
           and I try to learn something new every day. And the best way to learn is by doing: check
           out my projects below to see what technologies I'm currently experimenting with.
         </p>
+        <div class="p4">
+          <div class="level">
+            <div class="level-left">Hometown:</div>
+            <div class="level-right">Chicago, IL</div>
+          </div>
+          <div class="level">
+            <div class="level-left">Current Favorite Tech:</div>
+            <div class="level-right"><a href="https://acss.io/">
+              Atomic CSS</a>&nbsp;or&nbsp;<a href="https://www.parity.io/substrate/">
+              Parity Substrate
+            </a></div>
+          </div>
+          <div class="level">
+            <div class="level-left">Who should I follow:</div>
+            <div class="level-right"><a href="https://twitter.com/matthew_d_green"
+              class="is-info">
+              @matthew_d_green
+            </a>&nbsp;for no nonsense</div>
+          </div>
+        </div>
       </div>
     </section>
     <section id="Projects" class="section h100v">
@@ -82,10 +125,14 @@ export default {
     font-size: 32pt;
     line-height: 48pt;
     margin-top: 0;
-    color: $primary2;
+    color: $primary;
   }
 
   .h100v {
     min-height: 100vh;
+  }
+
+  h2 {
+    color: $primary;
   }
 </style>

@@ -21,9 +21,17 @@ export default {
     // On load, add class to body for padding for the fixed navbar
     // document.body.classList.add('has-navbar-fixed-top');
 
+    // FontAwesome
+    const fa = document.createElement('link');
+    fa.setAttribute('rel', 'stylesheet');
+    fa.setAttribute('href', 'https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+    fa.setAttribute('integrity', 'sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU');
+    fa.setAttribute('crossorigin', 'anonymous');
+    document.head.appendChild(fa);
+
     // Initialize navbar
-    $('.navbar').css('min-height', '3.25rem');
-    $('.navbar').css('height', '3.25rem');
+    // $('.navbar').css('min-height', '3.25rem');
+    // $('.navbar').css('height', '3.25rem');
     $('.navbar').css('background-color', 'rgba(255,255,255,0)');
 
     // Set up scroll handler
@@ -33,23 +41,23 @@ export default {
       // Navbar
       if (scrollTop < 50) {
         // Initialize navbar
-        $('.navbar').css('min-height', '3.25rem');
-        $('.navbar').css('height', '3.25rem');
+        // $('.navbar').css('min-height', '3.25rem');
+        // $('.navbar').css('height', '3.25rem');
         $('.navbar').css('background-color', 'rgba(255,255,255,0)');
       } else if (scrollTop >= 250) {
-        $('.navbar').css('min-height', '2.25rem');
-        $('.navbar').css('height', '2.25rem');
-        $('.navbar').css('background-color', 'rgba(255,255,255,.75)');
+        // $('.navbar').css('min-height', '2.25rem');
+        // $('.navbar').css('height', '2.25rem');
+        $('.navbar').css('background-color', 'rgba(255,255,255,.9)');
       } else {
         const navScroll = ((scrollTop - 50) / 200);
-        const navHeight = 3.25 - navScroll;
-        const navOpacity = navScroll * 0.75;
+        // const navHeight = 3.25 - navScroll;
+        const navOpacity = navScroll * 0.90;
 
-        $('.navbar').css('min-height', `${navHeight}rem`);
-        $('.navbar').css('height', `${navHeight}rem`);
-        $('.navbar-brand').css('min-height', `${navHeight}rem`);
-        $('.navbar-brand').css('height', `${navHeight}rem`);
-        $('.navbar').css('background-color', `rgba(250,255,255,${navOpacity})`);
+        // $('.navbar').css('min-height', `${navHeight}rem`);
+        // $('.navbar').css('height', `${navHeight}rem`);
+        // $('.navbar-brand').css('min-height', `${navHeight}rem`);
+        // $('.navbar-brand').css('height', `${navHeight}rem`);
+        $('.navbar').css('background-color', `rgba(255,255,255,${navOpacity})`);
       }
     });
   },

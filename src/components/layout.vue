@@ -12,33 +12,38 @@
       </div>
 
 
-      <div id="menu" class="navbar-menu" :class="{'is-active': menuActive}">
+      <scrollactive id="menu" class="navbar-menu" :class="{'is-active': menuActive}">
         <div
           active-class="is-active"
           :offset="80"
           :duration="800"
           bezier-easing-value=".5,0,.35,1"
-          class="navbar-start">
+          class="navbar-end">
           <div class="navbar-item">
-            <a href="#Section1" class="navbar-item scrollactive-item">
-              Section 1
+            <a href="#Home" class="navbar-item scrollactive-item">
+              Home
             </a>
           </div>
           <div class="navbar-item">
-            <a href="#Section2" class="navbar-item scrollactive-item">
-              Section 2
+            <a href="#About" class="navbar-item scrollactive-item">
+              About
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="#Projects" class="navbar-item scrollactive-item">
+              Projects
             </a>
           </div>
         </div>
-        <div class="navbar-end">
+        <!--div class="navbar-end">
           <div class="navbar-item">
             <router-link to="/" class="navbar-item">Home</router-link>
           </div>
           <div class="navbar-item">
             <router-link to="/bulma" class="navbar-item">Bulma</router-link>
           </div>
-        </div>
-      </div>
+        </div-->
+      </scrollactive>
     </nav>
     <router-view></router-view>
   </div>
