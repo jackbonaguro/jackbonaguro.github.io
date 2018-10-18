@@ -94,9 +94,16 @@
           to serve as an educational case study in decentralized application architecture.
         </p>
         <p class="px4 center">
-          Github: <a href="https://github.com/BCGatech/blockchainpresentation">
-          https://github.com/BCGatech/blockchainpresentation
-        </a>
+          Original Presentation: <a href="https://github.com/BCGatech/blockchainpresentation">
+          https://github.com/BCGatech/blockchainpresentation</a>
+        </p>
+        <p class="px4 center">
+          Voting Dapp using token: <a href="https://github.com/BCGatech/Voting">
+          https://github.com/BCGatech/blockchainpresentation</a>
+        </p>
+        <p class="px4 center">
+          Voting Dapp Demo: <a href="https://bcgatech.github.io/Voting">
+          https://github.com/BCGatech/blockchainpresentation</a>
         </p>
       </div>
       <div v-show="activeTab === 'Slide'">
@@ -114,8 +121,7 @@
         </p>
         <p class="px4 center">
           Github: <a href="https://github.com/jackbonaguro/Slide">
-          https://github.com/jackbonaguro/Slide
-        </a>
+          https://github.com/jackbonaguro/Slide</a>
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
-  <div class="outer">
-    <div id="diamond" :style="style"></div>
+  <div class="outer is-hidden-mobile">
+    <div id="diamond" :style="style" class=""></div>
   </div>
 </template>
 

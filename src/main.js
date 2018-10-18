@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
 import VueScrollactive from 'vue-scrollactive';
+import Meta from 'vue-meta';
 
 import App from './App';
 import router from './router';
@@ -9,6 +10,7 @@ import router from './router';
 Vue.config.productionTip = false;
 
 Vue.use(VueScrollactive);
+Vue.use(Meta);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

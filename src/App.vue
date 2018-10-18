@@ -17,6 +17,18 @@ export default {
   components: {
     layout,
   },
+  metaInfo: {
+    link: [
+      { rel: 'favicon', href: '/favicon.ico' },
+      { rel: 'icon', href: '/favicon.ico' },
+      { rel: 'shortcut icon', href: '/favicon.ico' },
+    ],
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    ],
+    title: 'Jack Bonaguro',
+  },
   mounted() {
     // On load, add class to body for padding for the fixed navbar
     // document.body.classList.add('has-navbar-fixed-top');

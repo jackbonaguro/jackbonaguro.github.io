@@ -37,7 +37,7 @@
             <div class="level-item"></div>
             <div class="level-item has-text-centered">
               <div>
-                <p class="icon px4">
+                <p class="icon">
                   <a href="https://github.com/jackbonaguro">
                     <i class="fab fa-github"></i>
                   </a>
@@ -46,7 +46,7 @@
             </div>
             <div class="level-item has-text-centered">
               <div>
-                <p class="icon px4">
+                <p class="icon">
                   <a href="https://twitter.com/jackbonaguro">
                     <i class="fab fa-twitter"></i>
                   </a>
@@ -55,7 +55,7 @@
             </div>
             <div class="level-item has-text-centered">
               <div>
-                <p class="icon px4">
+                <p class="icon">
                   <a href="https://medium.com/@jbonaguro2">
                     <i class="fab fa-medium"></i>
                   </a>
