@@ -37,15 +37,16 @@ body {
     /* background-color: bisque; */
 }
 
-@media screen and (min-width: 448px) {
+@media screen and (min-width: 4in) {
     .row {
         flex-direction: row;
     }
     .main {
+        width: 88%;
         margin: .15in;
     }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 12in) {
     .main {
         width: 38%;
     }
