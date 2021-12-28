@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    line-height: 150%;
+}
+
+.outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #f8f9fa;
+}
+
+.main {
+    width: 38%;
+    background-color: white;
+    padding: .625in;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+    margin: .15in;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    /* background-color: bisque; */
+}
+
+.content {
+    flex: 2;
+    padding-left: .075in;
+    padding-right: .075in;
+    /* background-color: #eff; */
+}
+
+.sidebar {
+    flex: 1;
+    padding-left: .075in;
+    padding-right: .075in;
+    /* background-color: #fef; */
+}
+
+h1 {
+    /* margin: 0; */
+    /* padding: 0; */
+    font-size: 30pt;
+    font-weight: 100;
+}
+
+.s9 {
+    font-size: 9pt;
+    margin-bottom: 15pt;
+}
+.s8 {
+    font-size: 8pt;
+}
+
+.i {
+    font-style: italic;
+}
+
+.dg {
+    color: #666666;
+}
+
+h2 {
+    font-size: 9pt;
+    color: #1a1ea9;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 11pt;
+    font-weight: 400;
+}
+
+.position {
+    font-size: 10pt;
+    font-style: italic;
+}
+.daterange {
+    font-size: 8pt;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+br {
+    font-size: 9pt;
+}
+
+.photo-card {
+    display: flex;
+    flex-direction: row;
+}
+.photo-inset {
+    flex: 1;
+    padding: 4pt;
+    /* background-color: cadetblue; */
+}
+.photo-img {
+    /* max-width: 1in; */
+    width: 80pt;
+    height: 80pt;
+    background-image: url('/profile.jpg');
+    background-position: 65% 25%;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+    /* border: 2pt solid #666666; */
+}
+.photo-info {
+    flex: 3;
+}
